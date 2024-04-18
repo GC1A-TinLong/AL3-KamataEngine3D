@@ -112,7 +112,6 @@ void GameScene::Draw() {
 		PrimitiveDrawer::GetInstance()->DrawLine3d({-20, float(i * 2) - 20, 20}, {18, float(i * 2) - 20, 50}, {1.0f, 0, 0, 1.0f});
 	}
 
-
 	// スプライト描画後処理
 	Sprite::PostDraw();
 
